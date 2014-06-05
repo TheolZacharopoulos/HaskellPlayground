@@ -4,3 +4,7 @@
 -- of type a, or internal nodes "branches" containing recursively
 -- two sub-trees.
 data Tree a = Leaf a | Branch (Tree a) (Tree a)
+
+-- definition
+Branch :: Tree a -> Tree a -> Tree a
+Leaf :: a -> Tree a
