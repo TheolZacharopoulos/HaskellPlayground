@@ -11,4 +11,4 @@
 fib = map fst (iterate f (1, 2)) 
     where f (x,y) = (y, x + y)
 
-eu2 = sum [x | x <- takeWhile ( < 4000000) fib, even x
+eu2 = sum [x | x <- takeWhile ( < 4000000) fib, even x]
